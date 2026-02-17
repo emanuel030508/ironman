@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Puertas Metálicas",
+    "description": "Fabricación e instalación de puertas metálicas de alta seguridad y diseño moderno.",
+    "icon": "M4 6h16M4 12h16M4 18h16",
+    "features": [
+      "Puertas de seguridad reforzadas",
+      "Diseños personalizados",
+      "Cerraduras de alta seguridad",
+      "Acabados en pintura electrostática"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ventanas con Cristal",
+    "description": "Ventanas metálicas con cristal templado, combinando estética y funcionalidad.",
+    "icon": "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z",
+    "features": [
+      "Cristal templado de seguridad",
+      "Marcos de aluminio o acero",
+      "Doble vidrio opcional",
+      "Mosquiteros integrados"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cercas y Rejas",
+    "description": "Cercas metálicas decorativas y rejas de seguridad para su hogar o negocio.",
+    "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+    "features": [
+      "Diseños ornamentales",
+      "Rejas de seguridad anti-intrusión",
+      "Portones eléctricos",
+      "Pintura anticorrosiva"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Soldadura de Vehículos",
+    "description": "Reparación y soldadura especializada para bicitaxis, motorinas y más.",
+    "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+    "features": [
+      "Reparación de chasis",
+      "Soldadura de estructuras",
+      "Modificaciones personalizadas",
+      "Pintura y acabado"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Reparaciones Generales",
+    "description": "Servicios de soldadura y reparación para todo tipo de estructuras metálicas.",
+    "icon": "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z",
+    "features": [
+      "Soldadura MIG y TIG",
+      "Corte de metal",
+      "Doblado de láminas",
+      "Trabajos en acero inoxidable"
+    ]
+  }
+]
