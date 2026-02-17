@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Ironman Welding */
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #1a1a2e;
+  color: #e8e8e8;
+}
+
+/* Metallic gradient backgrounds */
+.metallic-gradient {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.metallic-card {
+  background: linear-gradient(145deg, #16213e 0%, #1a1a2e 100%);
+  border: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+/* Spark animation for welding effect */
+.spark {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #ffd700;
+  border-radius: 50%;
+  animation: spark 1.5s linear infinite;
+  box-shadow:
+    0 0 10px #e94560,
+    0 0 20px #ffd700;
+}
+
+@keyframes spark {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translateY(0) scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-30px) scale(1);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f3460;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e94560;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #e94560;
+  outline-offset: 2px;
+}
+
+/* Button hover effects */
+.btn-primary {
+  @apply bg-naranja-soldadura text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+}
+
+.btn-primary:hover {
+  @apply bg-opacity-90 transform scale-105;
+  box-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
+}
+
+/* Section padding */
+.section-padding {
+  @apply py-16 px-4 sm:px-6 lg:px-8 xl:px-12;
+}
+
+/* Container max width */
+.container-custom {
+  @apply max-w-7xl mx-auto;
+}
